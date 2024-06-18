@@ -8,4 +8,3 @@ Crowdfunding dapp built on ethereum blockchain
 
 ------------------
 
-@0xJonaseb11

@@ -1,3 +1,5 @@
+const { Mnemonic } = require("ethers");
+
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-ethers");
 
@@ -9,7 +11,12 @@ module.exports = {
     version: '0.8.19',
   },
   networks: {
-    hardhat: {},
+    hardhat: {
+      // accounts: {
+      //   Mnemonic: process.env.MNEMONIC || "test test test test test test test test test test test test test test test test test test test test",
+      //   accounts: [`0x${process.env.PRIVATE_KEY}`],
+      // },
+    },
     sepolia: {
       url: process.env.RPC_URL,
       accounts: [`0x${process.env.PRIVATE_KEY}`],

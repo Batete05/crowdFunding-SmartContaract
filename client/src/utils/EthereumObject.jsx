@@ -5,7 +5,7 @@ import Crowdfunding from '../contract/Crowdfunding.json';
 let provider;
 let signer;
 let contract;
-const contractAddress = '0xa9d56A50Ee158B8fEe0f4780dD1a15fb95217870';
+const contractAddress = '0x92919D9B4b03a1c81fEb0337BEBBebDE849458f5';
 
 const loadWeb3 = async () => {
   const detectedProvider = await detectEthereumProvider();
